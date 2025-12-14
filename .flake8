@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 88  # Matches Black's default
+ignore = E501, W503   # Ignore line length and some warnings
+exclude = migrations/, venv/  # Skip Django migrations
